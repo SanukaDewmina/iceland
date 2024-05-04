@@ -1,0 +1,503 @@
+/* 400px */
+@media screen and (max-width:600px) {
+  ul {
+    display: none;
+  }
+  .content-box{
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+  }
+  .content-box h1{
+    font-family: "Prompt", sans-serif;
+    color: rgb(0, 183, 255);
+    font-size: 2rem;
+    margin: 10px 0;
+    text-align: center;
+    transition: 0.7s;
+  }
+  .content-box p{
+    font-family: "Dosis", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .back-vid{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .content-btn{
+
+    border-radius: 50px;
+    padding: 4px 32px;
+    width: 140px;
+
+  }
+  .grid-item{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    overflow: hidden;
+  
+  }
+  .grid-left{
+    width: 100%;
+  }
+  .grid-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+  }
+  .grid-img{
+    width: 100%;
+    background-position: center;
+    
+  }
+  .grid-title{
+    font-family: "Prompt", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .grid-para{
+    font-family: "Dosis", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .grid-btn{
+    font-family: "Dosis", sans-serif;
+    font-size: 1rem;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 4px 16px;
+    transition: 0.7s;
+  }
+  .controls{
+    width: 100%;
+    height: auto;
+    
+  }
+  .cont-topic{
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    margin: 20px 0;
+  }
+  .our-packeges{
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .pakg01{
+    width: 120px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 119, 255);
+    transition: 0.7s;
+  }
+  
+}
+
+/* 600px */
+@media screen and (max-width:600px) {
+  ul {
+    display: none;
+  }
+  .content-box{
+    position: relative;
+    top: 140px;
+    padding: 20px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+  }
+  .content-box h1{
+    font-family: "Prompt", sans-serif;
+    color: rgb(0, 183, 255);
+    font-size: 2rem;
+    margin: 10px 0;
+    text-align: center;
+    transition: 0.7s;
+  }
+  .content-box p{
+    font-family: "Dosis", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .back-vid{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .content-btn{
+
+    border-radius: 50px;
+    padding: 4px 32px;
+    width: 140px;
+
+  }
+  .grid-item{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    overflow: hidden;
+  
+  }
+  .grid-left{
+    width: 100%;
+  }
+  .grid-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+  }
+  .grid-img{
+    width: 100%;
+    background-position: center;
+    
+  }
+  .grid-title{
+    font-family: "Prompt", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .grid-para{
+    font-family: "Dosis", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .grid-btn{
+    font-family: "Dosis", sans-serif;
+    font-size: 1rem;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 4px 16px;
+    transition: 0.7s;
+  }
+  .controls{
+    width: 100%;
+    height: auto;
+    
+  }
+  .cont-topic{
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    margin: 20px 0;
+  }
+  .our-packeges{
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .pakg01{
+    width: 120px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 119, 255);
+    transition: 0.7s;
+  }
+  
+}
+
+/* 720px */
+@media screen and (max-width:720px) {
+  ul {
+    display: none;
+  }
+  .content-box{
+    position: relative;
+    top: 140px;
+    padding: 20px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+  }
+  .content-box h1{
+    font-family: "Prompt", sans-serif;
+    color: rgb(0, 183, 255);
+    font-size: 2rem;
+    margin: 10px 0;
+    text-align: center;
+    transition: 0.7s;
+  }
+  .content-box p{
+    font-family: "Dosis", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .back-vid{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .content-btn{
+
+    border-radius: 50px;
+    padding: 4px 32px;
+    width: 140px;
+
+  }
+  .grid-item{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    overflow: hidden;
+  
+  }
+  .grid-left{
+    width: 100%;
+  }
+  .grid-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+  }
+  .grid-img{
+    width: 100%;
+    background-position: center;
+    
+  }
+  .grid-title{
+    font-family: "Prompt", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .grid-para{
+    font-family: "Dosis", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .grid-btn{
+    font-family: "Dosis", sans-serif;
+    font-size: 1rem;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 4px 16px;
+    transition: 0.7s;
+  }
+  .controls{
+    width: 100%;
+    height: auto;
+    
+  }
+  .cont-topic{
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    margin: 20px 0;
+  }
+  .our-packeges{
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .pakg01{
+    width: 120px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 119, 255);
+    transition: 0.7s;
+  }
+  
+}
+
+/* 920 */
+@media screen and (max-width:920px) {
+  ul {
+    display: none;
+  }
+  .content-box{
+    position: relative;
+    top: 220px;
+    padding: 20px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+  }
+  .searchbox{
+    margin-top: 45px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-box h1{
+    font-family: "Prompt", sans-serif;
+    color: rgb(0, 183, 255);
+    font-size: 2rem;
+    margin: 10px 0;
+    text-align: center;
+    transition: 0.7s;
+  }
+  .content-box p{
+    font-family: "Dosis", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .back-vid{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .content-btn{
+
+    border-radius: 50px;
+    padding: 4px 32px;
+    width: 140px;
+
+  }
+  .grid-item{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    overflow: hidden;
+  
+  }
+  .grid-left{
+    width: 100%;
+  }
+  .grid-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+  }
+  .grid-img{
+    width: 100%;
+    background-position: center;
+    
+  }
+  .grid-title{
+    font-family: "Prompt", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .grid-para{
+    font-family: "Dosis", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .grid-btn{
+    font-family: "Dosis", sans-serif;
+    font-size: 1rem;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 4px 16px;
+    transition: 0.7s;
+  }
+  .controls{
+    width: 100%;
+    height: auto;
+    
+  }
+  .cont-topic{
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    margin: 20px 0;
+  }
+  .our-packeges{
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .pakg01{
+    width: 120px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 119, 255);
+    transition: 0.7s;
+  }
+  
+}

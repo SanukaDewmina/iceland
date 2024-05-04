@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICZland</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="extra.css">
+  <link rel="stylesheet" href="hidedivs.css">
+  <link rel="stylesheet" href="responsive.css">
+  <!-- FONT AWSOME ICONS LINK -->
+  <script src="https://kit.fontawesome.com/3bd3df8ce1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="hero">
+    <video src="background-video/iceland.mp4" width="100%" autoplay loop muted class="back-vid"></video>
+    <nav class="header">
+      <section class="section-01">
+        <img src="download.svg" alt="">
+      </section>
+      <section class="section-02">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">POPILAR PLACES</a></li>
+          <li><a href="#">ABOUT US</a></li>
+        </ul>
+      </section>
+      <section class="section-03">
+        <i class="fa-solid fa-user" onclick="activeclasslist('');"></i>
+      </section>
+      </nav>
+     
+   <main class="content">
+    <div class="content-box">
+      <h1>Discover Iceland</h1>
+      <p>Way To Iceland was formed by a group of friends who love to travel. We worked together as bus drivers for one of the biggest tour companies in Iceland. As experienced drivers, we have traversed the country in all kinds of weather conditions, gaining experience while working with various groups and tours. With our expertise, we aim to provide high-quality and customer-oriented tours to our clients.</p>
+      <button class="content-btn">Expolre</button>
+    </div>
+   </main> 
+  </div>
+
+  <!-- hide forms -->
+  <!-- 01 profile login -->
+  <div class="profile" id="profile">
+         <div class="profile-pic">
+          <i class="fa-regular fa-user" id="proflie-create-icon"></i>
+         </div>
+
+         <div class="profile-bottom-section">
+
+          <div>                  
+            <label class="lbl" for="">Enter your name</label>
+            <input id="input-name" type="text">
+          </div>
+                
+          <div>
+            <label class="lbl" for="">Enter your Email address</label>
+            <input id="input-email" type="text">
+          </div>
+
+          <div>
+            <label  class="lbl" for="">Enter your password</label>
+            <input id="input-password" type="password">
+         </div>
+
+         <div>
+           <button class="profile-creat-btn" onclick="creatProfile();">Creat Account</button>
+         </div>
+        </div>
+
+       
+  </div>
+
+  <div class="profile01" id="profile01">
+    <div class="profile-pic">
+        <i class="fa-solid fa-check"></i>
+    </div>
+
+    <div class="profile-bottom-section">
+     <h1 class="profile-cret-thank-msg">Thanks for Creat An Account...</h1>
+   </div>
+
+  
+</div>
+
+
+  <div class="searchbox">
+    <form action="">
+      <input class="search-destination" type="search" placeholder="Type your future Destination here... ">
+      <button class="search-btn">search</button>
+    </form>
+  </div>
+
+  <div class="controls">
+    <h1 class="cont-topic">Plan your journey with <span>icz</span>land..</h1>
+    <div class="our-packeges">
+      <div class="pakg01">
+        <i class="fa-solid fa-plane fa-rotate-by" style="--fa-rotate-angle: 315deg;"></i>
+        <h3 class="pakg1-title">Flights deatails</h3>
+      </div>
+      <div class="pakg01">
+        <i class="fa-solid fa-map-location-dot"></i>
+        <h3 class="pakg1-title">Travel locations</h3>
+      </div>
+      <div class="pakg01">
+        <i class="fa-solid fa-utensils"></i>
+        <h3 class="pakg1-title">Foods</h3>
+      </div>
+      <div class="pakg01">
+        <i class="fa-solid fa-passport"></i>
+        <h3 class="pakg1-title">Migration </h3>
+      </div>
+      <div class="pakg01">
+        <i class="fa-solid fa-bus"></i>
+        <h3 class="pakg1-title">Public-Transport</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="grid-box">
+
+      <div class="grid-item">
+        <div class="grid-left">
+          <img src="gridimg/mountains.jpg" class="grid-img">
+        </div>
+        <div class="grid-right">
+          <h2 class="grid-title">LOOKa bay mount</h2>
+          <p class="grid-para">Iceland, known as the Land of Fire and Ice, is renowned for its dramatic landscapes shaped by volcanic eruptions, glaciers, and rugged terrain. Among its many natural wonders, Iceland's mountains stand tall and proud, offering adventurers breathtaking vistas and thrilling experiences.<br> Rising 463 meters (1,519 feet) above sea level, its distinctive pyramid shape against the backdrop of Kirkjufellsfoss waterfall has made it one of Iceland's most photographed mountains. Visitors can explore the surrounding area, which is rich in folklore and offers opportunities for hiking and wildlife spotting</p>
+          <button class="grid-btn">visit</button>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-left">
+          <img src="gridimg/beaches.jpg" class="grid-img">
+        </div>
+        <div class="grid-right">
+          <h2 class="grid-title">LOOKa bay mount</h2>
+          <p class="grid-para">Iceland, known as the Land of Fire and Ice, is renowned for its dramatic landscapes shaped by volcanic eruptions, glaciers, and rugged terrain. Among its many natural wonders, Iceland's mountains stand tall and proud, offering adventurers breathtaking vistas and thrilling experiences.<br> Rising 463 meters (1,519 feet) above sea level, its distinctive pyramid shape against the backdrop of Kirkjufellsfoss waterfall has made it one of Iceland's most photographed mountains. Visitors can explore the surrounding area, which is rich in folklore and offers opportunities for hiking and wildlife spotting</p>
+          <button class="grid-btn">visit</button>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="grid-left">
+          <img src="gridimg/aimals.jpg" class="grid-img">
+        </div>
+        <div class="grid-right">
+          <h2 class="grid-title">Beaches</h2>
+          <p class="grid-para">Iceland, known as the Land of Fire and Ice, is renowned for its dramatic landscapes shaped by volcanic eruptions, glaciers, and rugged terrain. Among its many natural wonders, Iceland's mountains stand tall and proud, offering adventurers breathtaking vistas and thrilling experiences.<br> Rising 463 meters (1,519 feet) above sea level, its distinctive pyramid shape against the backdrop of Kirkjufellsfoss waterfall has made it one of Iceland's most photographed mountains. Visitors can explore the surrounding area, which is rich in folklore and offers opportunities for hiking and wildlife spotting</p>
+          <button class="grid-btn">visit</button>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-left">
+          <img src="gridimg/Old houses.jpg" class="grid-img">
+        </div>
+        <div class="grid-right">
+          <h2 class="grid-title">Animals</h2>
+          <p class="grid-para">Iceland, known as the Land of Fire and Ice, is renowned for its dramatic landscapes shaped by volcanic eruptions, glaciers, and rugged terrain. Among its many natural wonders, Iceland's mountains stand tall and proud, offering adventurers breathtaking vistas and thrilling experiences.<br> Rising 463 meters (1,519 feet) above sea level, its distinctive pyramid shape against the backdrop of Kirkjufellsfoss waterfall has made it one of Iceland's most photographed mountains. Visitors can explore the surrounding area, which is rich in folklore and offers opportunities for hiking and wildlife spotting</p>
+          <button class="grid-btn">visit</button>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="grid-left">
+          <img src="gridimg/ice.jpg" class="grid-img">
+        </div>
+        <div class="grid-right">
+          <h2 class="grid-title">Old Houses</h2>
+          <p class="grid-para">Iceland, known as the Land of Fire and Ice, is renowned for its dramatic landscapes shaped by volcanic eruptions, glaciers, and rugged terrain. Among its many natural wonders, Iceland's mountains stand tall and proud, offering adventurers breathtaking vistas and thrilling experiences.<br> Rising 463 meters (1,519 feet) above sea level, its distinctive pyramid shape against the backdrop of Kirkjufellsfoss waterfall has made it one of Iceland's most photographed mountains. Visitors can explore the surrounding area, which is rich in folklore and offers opportunities for hiking and wildlife spotting</p>
+          <button class="grid-btn">visit</button>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-left">
+          <img src="gridimg/nothern lights.jpg" class="grid-img">
+        </div>
+        <div class="grid-right">
+          <h2 class="grid-title">Beautiful senaries</h2>
+          <p class="grid-para">Iceland, known as the Land of Fire and Ice, is renowned for its dramatic landscapes shaped by volcanic eruptions, glaciers, and rugged terrain. Among its many natural wonders, Iceland's mountains stand tall and proud, offering adventurers breathtaking vistas and thrilling experiences.<br> Rising 463 meters (1,519 feet) above sea level, its distinctive pyramid shape against the backdrop of Kirkjufellsfoss waterfall has made it one of Iceland's most photographed mountains. Visitors can explore the surrounding area, which is rich in folklore and offers opportunities for hiking and wildlife spotting</p>
+          <button class="grid-btn">visit</button>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="grid-left">
+          <img src="gridimg/water fall.jpg" class="grid-img">
+        </div>
+        <div class="grid-right">
+          <h2 class="grid-title">Nuthern lights</h2>
+          <p class="grid-para">Iceland, known as the Land of Fire and Ice, is renowned for its dramatic landscapes shaped by volcanic eruptions, glaciers, and rugged terrain. Among its many natural wonders, Iceland's mountains stand tall and proud, offering adventurers breathtaking vistas and thrilling experiences.<br> Rising 463 meters (1,519 feet) above sea level, its distinctive pyramid shape against the backdrop of Kirkjufellsfoss waterfall has made it one of Iceland's most photographed mountains. Visitors can explore the surrounding area, which is rich in folklore and offers opportunities for hiking and wildlife spotting</p>
+          <button class="grid-btn">visit</button>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="grid-left">
+          <img src="gridimg/beaches.jpg" class="grid-img">
+        </div>
+        <div class="grid-right">
+          <h2 class="grid-title">LOOKa bay mount</h2>
+          <p class="grid-para">Iceland, known as the Land of Fire and Ice, is renowned for its dramatic landscapes shaped by volcanic eruptions, glaciers, and rugged terrain. Among its many natural wonders, Iceland's mountains stand tall and proud, offering adventurers breathtaking vistas and thrilling experiences.<br> Rising 463 meters (1,519 feet) above sea level, its distinctive pyramid shape against the backdrop of Kirkjufellsfoss waterfall has made it one of Iceland's most photographed mountains. Visitors can explore the surrounding area, which is rich in folklore and offers opportunities for hiking and wildlife spotting </p>
+          <button class="grid-btn">visit</button>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+  
+<script src="script.js"></script>
+      
+ 
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Dosis:wght@200..800&family=Freeman&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kdam+Thmor+Pro&family=Nanum+Gothic&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Teko:wght@300..700&display=swap');
+
+
+
+
+.searchbox{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  border: 1px solid black;
+  width: 60%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.search-destination{
+  width: 85%;
+  height: 38px;
+  border: none;
+  font-size: 1.5rem;
+  
+}
+.search-destination::placeholder{
+  color: rgba(119, 119, 119, 0.438);
+  padding-left: 10px;
+  font-size: 1.1rem;
+  
+}
+.search-btn{
+  border: none;
+  color: white;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.2rem;
+  padding: 8px 32px;
+  background-color: rgb(0, 110, 255);
+}
+.controls{
+  width: 100%;
+  height: 200px;
+  
+}
+.cont-topic{
+  text-align: center;
+  font-family: "Freeman", sans-serif;
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+span{
+  color: rgb(24, 132, 255);
+}
+.our-packeges{
+  margin: 0 auto;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pakg01{
+  width: 120px;
+  height: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(0, 119, 255);
+  transition: 0.7s;
+}
+.pakg01:hover, .pakg01:active{
+  background-color: rgb(255, 255, 255);
+  .pakg1-title{
+    color: rgb(0, 119, 255);
+  }
+  .fa-rotate-by,.fa-map-location-dot,.fa-utensils,.fa-passport,.fa-bus{
+    color: rgb(0, 119, 255);
+  }
+}
+.pakg1-title{
+  font-family: "Dosis", sans-serif;
+  font-size:1rem;
+  color: white;
+}
+.fa-rotate-by,.fa-map-location-dot,.fa-utensils,.fa-passport,.fa-bus{
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+}
